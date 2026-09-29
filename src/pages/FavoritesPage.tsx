@@ -5,7 +5,7 @@ import { useFavorites, useCart } from '@/lib/store';
 import { formatPrice, getEffectivePrice } from '@/lib/utils';
 
 export function FavoritesPage() {
-  const { items, removeFavorite, toggleFavorite } = useFavorites();
+  const { items, removeFavorite } = useFavorites();
   const { addToCart } = useCart();
   const { navigate } = useRouter();
 

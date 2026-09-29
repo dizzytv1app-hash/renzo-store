@@ -36,7 +36,7 @@ export function ProductPage({ slug }: { slug: string }) {
         discount_price: product.discount_price,
       });
     }
-  }, [product]);
+  }, [product, addRecent]);
 
   if (loading) {
     return (

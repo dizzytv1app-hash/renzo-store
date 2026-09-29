@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import {
   User, Package, Heart, MapPin, CreditCard, Tag, Bell, Eye, HelpCircle,
-  Info, Shield, Send, ChevronRight, BookOpen, Store, LogIn,
+  Shield, Send, ChevronRight, BookOpen, Store, LogIn,
 } from 'lucide-react';
 import { Header } from '@/components/Header';
 import { useRouter } from '@/lib/router';

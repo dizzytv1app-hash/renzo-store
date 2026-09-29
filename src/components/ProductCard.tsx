@@ -1,4 +1,4 @@
-import { Heart, ShoppingBag } from 'lucide-react';
+import { Heart } from 'lucide-react';
 import type { Product } from '@/types';
 import { useRouter } from '@/lib/router';
 import { useFavorites } from '@/lib/store';

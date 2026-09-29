@@ -1,14 +1,12 @@
-import { useState } from 'react';
 import { Trash2, Plus, Minus, ShoppingBag, ArrowRight } from 'lucide-react';
 import { Header } from '@/components/Header';
 import { useRouter } from '@/lib/router';
 import { useCart } from '@/lib/store';
-import { formatPrice, getEffectivePrice, cn } from '@/lib/utils';
+import { formatPrice, getEffectivePrice } from '@/lib/utils';
 
 export function CartPage() {
   const { items, updateQuantity, removeFromCart, cartTotal } = useCart();
   const { navigate } = useRouter();
-  const [showSummary, setShowSummary] = useState(false);
 
   return (
     <div className="pb-20 md:pb-8">

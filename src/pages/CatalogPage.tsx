@@ -1,5 +1,5 @@
-import { useState, useMemo } from 'react';
-import { SlidersHorizontal, Search, X } from 'lucide-react';
+import { useState } from 'react';
+import { SlidersHorizontal, Search } from 'lucide-react';
 import { useProducts, useCategories } from '@/hooks/useData';
 import { ProductCard } from '@/components/ProductCard';
 import { Header } from '@/components/Header';
